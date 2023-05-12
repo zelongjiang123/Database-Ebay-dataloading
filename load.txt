@@ -1,0 +1,23 @@
+.separator |
+.import User.dat User
+
+update User 
+set rating = null where rating = 'NULL';
+update User 
+set location = null where location = 'NULL';
+update User 
+set country = null where country = 'NULL';
+
+.separator |
+.import Item.dat Item
+update Item 
+set buy_Price = null where buy_Price = 'NULL';
+
+.separator |
+.import Category.dat Category
+
+.separator |
+.import Category_Item.dat Category_Item
+
+.separator |
+.import Bids.dat Bids
