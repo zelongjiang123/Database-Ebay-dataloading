@@ -8,5 +8,6 @@ in class in order to implement a good relational schema for it. You will then wr
 transform the data from its JSON form into SQLite’s load file format, conforming to your relational schema.
 You will create your schema in a SQLite database, load your transformed data, and test it by running some
 SQL queries over it.
+
 I (Zelong Jiang) wrote data_parser.py, runParser.sh, load.txt, and all sql queries.
 My partner Junior Esparza Diaz wrote design.pdf
