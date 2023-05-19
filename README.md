@@ -1,4 +1,5 @@
-Project overview:
+## Project overview:
+
 A fairly large volume of data downloaded from the eBay web site and stored in JSON files is provided.
 JSON is a model primarily used to store semi-structured data. It has become increasingly
 popular in recent years, and, for now, you can treat it as just another type of data that is straightforward to
@@ -8,12 +9,15 @@ transform the data from its JSON form into SQLite’s load file format, conformi
 You will create your schema in a SQLite database, load your transformed data, and test it by running some
 SQL queries over it.
 
-Main files:
+## Main files:
+
 data_parser.py, load.txt, create.sql, and desgin.pdf
 
-Main coding language: python 3.9
+## Main coding language:
 
-Run Program:
+python 3.9
+
+## Run Program:
 
 1. run "sh runParser.sh" which will run data_parser.py and generate many .dat files for bulk loading
 
@@ -23,7 +27,7 @@ Run Program:
 
 4. run ".read query<number>" to run the queries
 
-Attributions:
+## Attributions:
 
 I (Zelong Jiang) wrote data_parser.py, runParser.sh, load.txt, and all sql queries.
 
