@@ -1,13 +1,6 @@
 ## Project overview:
 
-A fairly large volume of data downloaded from the eBay web site and stored in JSON files is provided.
-JSON is a model primarily used to store semi-structured data. It has become increasingly
-popular in recent years, and, for now, you can treat it as just another type of data that is straightforward to
-read. In this project, you will examine the data and apply the principles of database design that we learned
-in class in order to implement a good relational schema for it. You will then write a Python program to
-transform the data from its JSON form into SQLite’s load file format, conforming to your relational schema.
-You will create your schema in a SQLite database, load your transformed data, and test it by running some
-SQL queries over it.
+Designed and implemented a good relational schema for given Ebay data. Transformed the data from its JSON form into SQLite’s load file format, conforming to the proposed relational schema. Created schema in an SQLite database, loaded transformed data, and tested it by running some SQL queries over it.
 
 ## Main files:
 
